@@ -35,14 +35,14 @@ public class Refund {
         //else{
             System.out.println("\n$$$onPostPersist" + this.refundPoint);
 
-
+/*
         try {
             System.out.println("Thread Sleep");
             Thread.currentThread().sleep((long) (450 + Math.random() * 230));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+*/
 
             RefundProcessed refundProcessed = new RefundProcessed();
             BeanUtils.copyProperties(this, refundProcessed);
